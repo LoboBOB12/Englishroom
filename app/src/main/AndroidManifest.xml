@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edroom.englishroom" >
+
+    <application
+        android:name="com.edroom.englishroom.MyApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Playroom" >
+        <activity
+            android:name="com.edroom.englishroom.activities.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.edroom.englishroom.activities.PremiumActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.PlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.SpellingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.ColorsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.ObjectsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.ShapesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.VehiclesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.VegetablesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.FruitsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.AnimalsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.AlphabetsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.PoemsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.RhythmsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.edroom.englishroom.activities.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+
+</manifest>

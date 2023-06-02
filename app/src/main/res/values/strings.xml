@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">EnglishRoom</string>
+
+    <!--AdMob Id-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-4132747243117791~3618690859</string>
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-4132747243117791/7366364173</string>
+    <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-4132747243117791/8737842518</string>
+    <string name="admob_native_ad_id" translatable="false">ca-app-pub-4132747243117791/6983220792</string>
+    <string name="admob_open_ad_id" translatable="false">ca-app-pub-4132747243117791/2988135460</string>
+
+    <string name="company_name" translatable="false">Dipun</string>
+    <string name="right" translatable="false">\u00a9 2022 Dipun</string>
+    <string name="company_email" translatable="false">akanatbek2@gmai.com</string>
+    <string name="version" translatable="false">1.0.0</string>
+    <string name="copyright_message">Made with \u2665 by Dipun</string>
+
+    <string name="about">About</string>
+    <string name="about_us">About Us</string>
+    <string name="telegram_title">Telegram</string>
+    <string name="email_title">E-mail</string>
+    <string name="version_title">Version</string>
+    <string name="contact">Contact</string>
+
+    <string name="share_via">Share via…</string>
+    <string name="premium_feature_message">Unlimited Access with No ads</string>
+
+
+    <array name="colors">
+        <item>@color/red</item>
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/indigo</item>
+        <item>@color/blue</item>
+        <item>@color/lightblue</item>
+        <item>@color/cyan</item>
+        <item>@color/teal</item>
+        <item>@color/green</item>
+        <item>@color/lime</item>
+        <item>@color/yellow</item>
+        <item>@color/amber</item>
+        <item>@color/orange</item>
+        <item>@color/brown</item>
+        <item>@color/grey</item>
+        <item>@color/black</item>
+        <item>@color/white</item>
+    </array>
+    <array name="colorNames">
+        <item>RED</item>
+        <item>PINK</item>
+        <item>PURPLE</item>
+        <item>INDIGO</item>
+        <item>BLUE</item>
+        <item>SKY BLUE</item>
+        <item>CYAN</item>
+        <item>TEAL</item>
+        <item>GREEN</item>
+        <item>LIME</item>
+        <item>YELLOW</item>
+        <item>AMBER</item>
+        <item>ORANGE</item>
+        <item>BROWN</item>
+        <item>GREY</item>
+        <item>BLACK</item>
+        <item>WHITE</item>
+    </array>
+
+</resources>
